@@ -1,7 +1,7 @@
 pessoas = []
 
 count = 1
-for i in range(2):
+for i in range(5):
     nome = input(f"Digite o {count} nome da pessoa: ")
     idade = int(input(f"Digite a {count} idade da pessoa: "))
     pessoas.append((nome, idade))
