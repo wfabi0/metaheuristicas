@@ -1,6 +1,6 @@
 alunos = []
 
-for i in range(3):
+for i in range(10):
     nome = input(f"Digite o nome do {i + 1} aluno: ")
     nota = float(input("Digite a nota do aluno (0-10): "))
     if nota < 0 or nota > 10:
