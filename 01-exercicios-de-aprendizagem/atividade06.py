@@ -1,12 +1,14 @@
 pessoas = []
 
+count = 1
 for i in range(2):
-    nome = input("Digite o nome da pessoa: ")
-    idade = int(input("Digite a idade da pessoa: "))
+    nome = input(f"Digite o {count} nome da pessoa: ")
+    idade = int(input(f"Digite a {count} idade da pessoa: "))
     pessoas.append((nome, idade))
+    count += 1
 
 maiores_de_idade = []
-print("Pessoas Cadastradas: ")
+print("\nPessoas Cadastradas: ")
 for pessoa in pessoas:
     nome, idade = pessoa
     if idade >= 18:
@@ -15,9 +17,8 @@ for pessoa in pessoas:
     print("Idade: ", idade)
     print()
 
-print()
+print("----------------------------")
 print("Pessoas maiores de idade: ")
-print()
 print()
 
 for pessoa in maiores_de_idade:
