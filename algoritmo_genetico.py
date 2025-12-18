@@ -130,7 +130,7 @@ def algoritmo_genetico(n_bits, tam_pop, n_geracoes, p_cruzamento, p_mutacao, k_t
 def main():
 
     N_BITS = 32
-    TAM_POP = 100
+    TAM_POP = 1000
     N_GERACOES = 50
     P_CRUZAMENTO = 0.8
     P_MUTACAO = 0.05
